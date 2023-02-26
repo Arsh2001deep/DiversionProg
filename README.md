@@ -13,10 +13,8 @@ Tech Stack Used:
 
 
 Instructions to Spin up the app:
-
 1. As we are using Node js so there will be node modules which is to be installed using the command 
 npm install
-
 2.As we are using MongoDb as database so it should be present locally or on cloud.
 
 
@@ -25,9 +23,7 @@ npm install
 
 
 Instructions for the student:-
-
-1.A study table or a school bag which is fat enough to serve the purpose or any other thing in order to make their both hands visible .
-
+1.A study table or a school bag which is fat enough to serve the purpose or any other thing in order to make their both hands visible which is only required for laptop users as desktop users with webcam can adjust their camera angle.
 2.Students needs to do signup before logging in.
 
 
@@ -46,7 +42,6 @@ Types of warnings:-
 
 
 Things disabled:-
-
 1.Right click.
 2.Navigation buttons on resizing the tab.
 3.Submit button on resizing the tab.
