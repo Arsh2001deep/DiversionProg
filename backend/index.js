@@ -13,8 +13,8 @@ app.use('/api/auth', require('./routes/auth'));
 app.use('/api/answer', require('./routes/answer'));
 app.use('/api/question', require('./routes/questions'));
 
-app.use("/", (req, res) => {
-    res.send('hello')
+app.get("/", (req, res) => {
+    res.send('<h1>hello</h1>')
 })
 
 
