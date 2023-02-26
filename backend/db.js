@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 
-const mongoURI = "mongodb://127.0.0.1:27017/exam?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false";
+const mongoURI = "mongodb://mongo:p71ov7lra158fBHQnonL@containers-us-west-178.railway.app:5906";
 
-const connectToMongo = ()=>{
-    mongoose.connect(mongoURI,()=>{
+const connectToMongo = () => {
+    mongoose.connect(mongoURI, () => {
         console.log("Connected to mongoose successfully");
     })
 }
